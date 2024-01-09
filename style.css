@@ -77,11 +77,12 @@ input[type=text] {
     height: 40px;
     font-family: 'Container';
     font-size: 16px;
-    color: var(--blanc);
+    color: black;
 }
 
 input[type=text]:focus {
     background-color: var(--gris);
+    outline-color: transparent;
 }
 
 input[type=button] {
